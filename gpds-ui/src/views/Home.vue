@@ -2,7 +2,7 @@
 <template>
     <div>
       <h1>Home</h1>
-      <p>Bienvenido a la página de inicio amigo.</p>
+      <p>Bienvenido a la página de inicio Ness.</p>
     </div>
   </template>
   
