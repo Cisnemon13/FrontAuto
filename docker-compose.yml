@@ -4,8 +4,8 @@ version: '3.8'
 services:
   web:
     build:
-      context: .
-      dockerfile: gpds-ui/Dockerfile
+      context: gpds-ui .
+      dockerfile: Dockerfile
     ports:
       - "8080:80" # Exponer el puerto 80 de nginx en el puerto 8080 de tu host
     volumes:
